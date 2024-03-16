@@ -1,3 +1,25 @@
+@media screen and (min-width:1710px) {
+    .timing:nth-child(3){
+        transition: 2.1s;
+    }
+    .timing:nth-child(4){
+        transition: 2.4s;
+    }
+    .timing:nth-child(5){
+        transition: 1.5s;
+    }
+}
+@media screen and (min-width:2080px) {
+    .timing:nth-child(3){
+        transition: 2.1s;
+    }
+    .timing:nth-child(4){
+        transition: 2.4s;
+    }
+    .timing:nth-child(5){
+        transition: 2.7s;
+    }
+}
 @media screen and (max-width:1339px){
     .timing:nth-child(2){
         transition: 1.8s;

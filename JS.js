@@ -9,18 +9,19 @@ window.addEventListener('scroll',function(){
     btn.style.marginTop=value * 1 +'px';
     header.style.top=value * .5 + 'px';
 })
-function card1(){
-        document.querySelector('.popUpImage1').style.display= 'block';
-    }
 
-    function card2(){
-            document.querySelector('.popUpImage2').style.display= 'block';
-        }
+function card1(){
+    document.querySelector('.popUpImage1').style.display= 'block';
+}
+
+function card2(){
+    document.querySelector('.popUpImage2').style.display= 'block';
+}
     
-    function card3(){
-            document.querySelector('.popUpImage3').style.display= 'block';
-        }
-    function card4(){
+function card3(){
+    document.querySelector('.popUpImage3').style.display= 'block';
+}
+function card4(){
         // var sound = new Audio();
         // sound.src = "image/sound-track.mp3"
         // sound.play()
@@ -57,13 +58,12 @@ function card1(){
             }
         });
     });
-
     const hiddenElements = document.querySelectorAll('.hidden');
     hiddenElements.forEach((el)=>observer.observe(el))
 
     const hamburger = document.querySelector(".hamburger");
     const menu = document.querySelector(".menu");
     hamburger.addEventListener("click", ()=>{
-        hamburger.classList.toggle("active");
+        hamburger.classList.toggle("active");   
         menu.classList.toggle("active");
     })
